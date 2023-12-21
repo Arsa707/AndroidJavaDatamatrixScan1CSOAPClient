@@ -7,6 +7,20 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+    <TextView
+            android:id="@+id/textLogo"
+            android:layout_gravity="top|center"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:text="Gimex"
+            android:fontFamily="sans-serif-black"
+
+            android:background="@color/cadmium_violet"
+            android:textColor="#BEE7D2"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
     <androidx.appcompat.widget.LinearLayoutCompat
             android:id="@+id/layout_result"
             android:orientation="vertical"
@@ -16,9 +30,9 @@
             android:layout_height="wrap_content">
 
         <ImageView
-                android:src="@drawable/qr_scan"
-                android:layout_width="180dp"
-                android:layout_height="100dp"/>
+                android:src="@drawable/datamatrix"
+                android:layout_width="200dp"
+                android:layout_height="200dp"/>
 
         <TextView
                 android:id="@+id/textResult"
@@ -48,6 +62,7 @@
             android:backgroundTint="@color/cadmium_violet"
             app:tint="@android:color/white"
             android:src="@drawable/qr_scan"
-            app:layout_anchor="@+id/bottomAppBar" app:layout_anchorGravity="top|center"/>
+            app:layout_anchor="@+id/bottomAppBar"
+            app:layout_anchorGravity="top|center"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
