@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">AndroidQRCodeJava</string>
+    <string name="app_name">Gimex Scanner</string>
+    <string name="login"></string>
+    <string name="password"></string>
+    <string name="id"></string>
+    <string name="host"></string>
+    <string name="base"></string>
+    <string name="namespace"></string>
+    <string name="service"></string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.androidqrcodejava;
+package com.example.androidjavadatamatrixscan1csoapclient;
 
 import org.junit.Test;
 

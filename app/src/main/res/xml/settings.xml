@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+            android:key="login"
+            android:title="Логин"
+            android:id="@+id/edit_login"
+    />
+    <EditTextPreference
+            android:key="password"
+            android:title="Пароль"
+            android:id="@+id/edit_password"
+            android:inputType="textPassword"/>
+    <EditTextPreference
+            android:key="id"
+            android:title="Номер терминала"
+            android:id="@+id/edit_id"
+            android:inputType="number"/>
+    <EditTextPreference
+            android:key="host"
+            android:title="Хост"
+            android:id="@+id/edit_host"/>
+    <EditTextPreference
+            android:key="base"
+            android:title="База 1С"
+            android:id="@+id/edit_base"/>
+    <EditTextPreference
+            android:key="namespace"
+            android:title="Пространство имён"
+            android:id="@+id/edit_namespace"/>
+    <EditTextPreference
+            android:key="service"
+            android:title="Сервис"
+            android:id="@+id/edit_service"/>
+</PreferenceScreen>

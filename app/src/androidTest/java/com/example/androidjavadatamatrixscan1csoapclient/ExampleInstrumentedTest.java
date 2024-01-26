@@ -1,4 +1,4 @@
-package com.example.androidqrcodejava;
+package com.example.androidjavadatamatrixscan1csoapclient;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
